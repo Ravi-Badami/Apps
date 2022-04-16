@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="myLaptop_name">Lenevo</string>
+
+    <string name="correct_text">Correct!</string>
+    <string name="incorrect_text">Incorrect</string>
+    <string name="Firest_Score">0/10</string>
+    <string name="incorrect_toast_message">Not good</string>
+
+    <string name="q1">Dolphins are unable to smell</string>
+    <string name="q2">The King of Hearts is the only king without a mustache</string>
+    <string name="q3">One is the only number with letters in reverse alphabetical order</string>
+    <string name="q4">No word in the English language rhymes with month</string>
+    <string name="q5">The average dog can understand over 150 words</string>
+    <string name="q6">A bolt of lightning can reach temperatures hotter than the sun</string>
+    <string name="q7">A rhinoceros horn is made of compacted hair</string>
+    <string name="q8">A compass needle does not point directly north</string>
+    <string name="q9">Venus is the only planet to rotate clockwise</string>
+    <string name="q10">Tennis was originally played with bare hands</string>
+
+
+
+</resources>

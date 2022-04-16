@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbarSize="10dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/txtquestion"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center|center_horizontal"
+        android:text="TextView"
+        android:textSize="18sp" />
+
+    <ProgressBar
+        android:id="@+id/QuixPB"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/txtQuizStats"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center|center_horizontal"
+
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnTrue"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#0000ff"
+        android:ellipsize="end"
+        android:scrollbarSize="10dp"
+        android:text="true button"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        app:backgroundTint="#0000ff"
+        app:iconSize="10dp" />
+
+    <Button
+        android:id="@+id/btnWrong"
+        android:layout_width="@android:dimen/app_icon_size"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#0000ff"
+        android:text="wrong button"
+        android:textSize="24sp"
+        app:backgroundTint="#ff0000" />
+
+
+</LinearLayout>

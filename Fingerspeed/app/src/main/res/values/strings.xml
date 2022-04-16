@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Finger speed</string>
+    <string name="timer_text">TIme</string>
+    <string name="thousand">1000</string>
+    <string name="button_text">Tap Tap!</string>
+    <string name="alert_title">The game  finished would you like to reset the game </string>
+    <string name="alert_message">Congratulation</string>
+</resources>
